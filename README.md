@@ -92,7 +92,12 @@ Before you begin, ensure you have the following installed:
            content: "Overview of the course"
          },
          // ... more weeks
-       ]
+       ],
+     students: [
+     {
+     id: 102,
+     name: "Amit",
+     email: amitstredz@gmail.com
      }
      ```
 
