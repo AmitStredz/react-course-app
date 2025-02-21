@@ -40,7 +40,7 @@ A modern, responsive web application for managing online courses. Built with Rea
 - React Router
 
 ## Demo Video
-![Video](src/assets/react-course-app.mp4)
+![Video](https://youtu.be/qsnHKBkh8W0)
 
 ## Project Screenshots
 
