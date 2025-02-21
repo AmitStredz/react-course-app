@@ -1,39 +1,8 @@
-// import React, { useEffect, useState } from "react";
-// import { collection, getDocs } from "firebase/firestore";
-
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useFirebaseCourses } from '../hooks/useFirebaseCourses';
 
-// const HomePage = ({ db }) => {
-//   const [courses, setCourses] = useState([]);
-
-//   useEffect(() => {
-//     const fetchCourses = async () => {
-//       const querySnapshot = await getDocs(collection(db, "courses"));
-//       setCourses(querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })));
-//     };
-//     fetchCourses();
-//   }, [db]);
-
-//   return (
-//     <div className="p-4">
-//       <h1 className="text-xl font-bold mb-4">Course List</h1>
-//       <ul>
-//         {courses.map(course => (
-//           <li key={course.id} className="mb-2 p-2 border rounded">
-//             <a href={`/course/${course.id}`} className="text-blue-500 hover:underline">
-//               {course.name} - {course.instructor}
-//             </a>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default HomePage;
 
 const HomePage = () => {
   useFirebaseCourses();
