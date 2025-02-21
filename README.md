@@ -52,8 +52,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/course-management-system.git
-   cd course-management-system
+   git clone [https://github.com/yourusername/course-management-system.git](https://github.com/AmitStredz/react-course-app.git)
+   cd react-course-app
    ```
 
 2. **Install dependencies**
@@ -102,7 +102,12 @@ Before you begin, ensure you have the following installed:
            content: "Overview of the course"
          },
          // ... more weeks
-       ]
+       ],
+     students: [
+     {
+     id: 102,
+     name: "Amit",
+     email: amitstredz@gmail.com
      }
      ```
 
