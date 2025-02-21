@@ -41,9 +41,10 @@ A modern, responsive web application for managing online courses. Built with Rea
 
 ## Project Screenshots
 
-![alt text](https://github.com/AmitStredz/react-course-app/blob/main/src/assets/1.png?raw=true)
-![alt text](https://github.com/AmitStredz/react-course-app/blob/main/1.png?raw=true)
 ![Alt text](src/assets/1.png)
+![Alt text](src/assets/2.png)
+![Alt text](src/assets/3.png)
+![Alt text](src/assets/4.png)
 
 
 ## Prerequisites
