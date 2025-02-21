@@ -9,15 +9,8 @@ import { getFirestore } from 'firebase/firestore';
 //   messagingSenderId: "your-messaging-sender-id",
 //   appId: "your-app-id"
 // };
-const firebaseConfig = {
-    apiKey: "AIzaSyB-pVmzrCZBVMPpKcTReM9Xwwcr1olUAwc",
-    authDomain: "vs-plugin.firebaseapp.com",
-    projectId: "vs-plugin",
-    storageBucket: "vs-plugin.firebasestorage.app",
-    messagingSenderId: "238242579636",
-    appId: "1:238242579636:web:22d8af0a929bed7cfb03e1",
-    measurementId: "G-TYBFE7WGZR"
-  };
+const firebaseConfig = JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG)
+console.log(JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG));
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

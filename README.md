@@ -5,18 +5,21 @@ A modern, responsive web application for managing online courses. Built with Rea
 ## Features
 
 - **Course Catalog**
+
   - Browse available courses
   - Search courses by name or instructor
   - View detailed course information
   - Real-time course status updates
 
 - **User Dashboard**
+
   - Track enrolled courses
   - Monitor course progress
   - View completed courses
   - Update course progress
 
 - **Course Management**
+
   - Course enrollment
   - Progress tracking
   - Detailed syllabus view
@@ -39,6 +42,7 @@ A modern, responsive web application for managing online courses. Built with Rea
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - Node.js (v14.0.0 or later)
 - npm (v6.0.0 or later)
 - Git
@@ -46,32 +50,38 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/course-management-system.git
    cd course-management-system
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure Firebase**
+
    - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com)
    - Enable Firestore database
    - Copy your Firebase configuration
    - Create a `.env` file in the root directory
    - Add your Firebase configuration:
-     ```env
-     REACT_APP_FIREBASE_API_KEY=your_api_key
-     REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-     REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-     REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-     REACT_APP_FIREBASE_APP_ID=your_app_id
-     ```
+     `env
+ REACT_APP_FIREBASE_CONFIG = {
+    apiKey: "your-api-key",
+    authDomain: "your-auth-domain",
+    projectId: "your-project-id",
+    storageBucket: "your-storage-bucket",
+    messagingSenderId: "your-messaging-sender-id",
+    appId: "your-app-id"
+}
+ `
 
 4. **Set up Firestore Database**
+
    - Create a 'courses' collection
    - Add course documents with the following structure:
      ```javascript
@@ -97,6 +107,7 @@ Before you begin, ensure you have the following installed:
      ```
 
 5. **Start the development server**
+
    ```bash
    npm start
    ```
