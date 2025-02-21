@@ -39,6 +39,12 @@ A modern, responsive web application for managing online courses. Built with Rea
 - Tailwind CSS
 - React Router
 
+## Project Screenshots
+
+![alt text](https://github.com/AmitStredz/react-course-app/blob/main/assets/1.png?raw=true)
+![alt text](https://github.com/AmitStredz/react-course-app/blob/main/1.png?raw=true)
+
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
