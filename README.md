@@ -52,7 +52,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone [https://github.com/yourusername/course-management-system.git](https://github.com/AmitStredz/react-course-app.git)
+   git clone [https://github.com/AmitStredz/react-course-app.git](https://github.com/AmitStredz/react-course-app.git)
    cd react-course-app
    ```
 
